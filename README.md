@@ -1,2 +1,2 @@
 # LandindPages
- projects for Nextjs with tailwind classes
+ projects for Nextjs14 with tailwind classes
