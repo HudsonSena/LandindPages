@@ -1,10 +1,21 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { ThemeProvider } from './_components/theme-provider'
+import type { Metadata } from 'next';
+import { Inter as FontSans } from 'next/font/google';
+import localFont from 'next/font/local';
+import { cn } from '@/lib/utils';
 
-import './globals.css'
+import { ThemeProvider } from './_components/theme-provider';
 
-const inter = Inter({ subsets: ['latin'] })
+import './globals.css';
+
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+})
+
+const fontHeading = localFont({
+  src: '../assets/fonts/CalSans-SemiBold.woff2',
+  variable: '--font-heading',
+})
 
 export const metadata: Metadata = {
   title: 'Hudson Sena',
@@ -27,7 +38,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cn(
+        'min-h-screen bg-background font-sans antialised',
+        fontSans.variable,
+        fontHeading.variable,
+      )}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           {children}
         </ThemeProvider>
