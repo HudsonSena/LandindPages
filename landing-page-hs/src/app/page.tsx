@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className='rounded-2xl bg-muted px-4 py-1.5'><a href="">Portifólio - Dev</a></h1>
         <h1 className='rounded-2xl bg-muted px-4 py-1.5'><a href="">Portifólio - UI/UX Design</a></h1>
       </main>
-      <footer id="create" className='space-y-6 py-8 md:py-12 lg:pb-32 '><p>Criado por <span className='text-primary'>Hudson Sena</span>, com NextJs e TailwindCss</p></footer>
+      <footer id="create" className='space-y-6 py-8 md:py-12 lg:pb-32 '><p className='text-xs'>Criado por <span className='text-primary'>Hudson Sena</span>, com NextJs 14 e TailwindCss</p></footer>
     </div>
   )
 }
