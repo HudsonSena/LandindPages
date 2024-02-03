@@ -9,7 +9,7 @@ export default function Home() {
         <div className='container flex max-w-[64rem] flex-col items-center gap-4'>
           <img className='w-[200px] rounded-[50%]' src="https://avatars.githubusercontent.com/u/107481318?v=4" alt="Imagem Diego" />
           <h1 className='rounded-2xl bg-muted px-4 py-1.5 text-sm font medium flex items-center gap-1'>Oi, sou<span className='text-primary flex items-center justify-center'>Hudson Diego<ModeToggle /></span></h1>
-          <p>Desenvolvedor FrontEnd e UI/UX Design.<br /> 
+          <p>Desenvolvedor FrontEnd e UI/UX Design. 
           Acesse um desses links e aproveite a experiência!</p>          
         </div>
       </header>
