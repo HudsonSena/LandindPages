@@ -15,8 +15,7 @@ export default function Home() {
         
       </header>
       <main id="links" className='flex flex-col gap-5 text-center w-[20rem] m-auto md:w-[30rem] m-auto'>
-        <section className='flex flex-col gap-4'>
-          <details>Qualquer coisa</details>        
+        <section className='flex flex-col gap-4'>                  
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2'><FaGithub size={20}/>Github</a>
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2'><FaLinkedin size={20}/> LinkedIn</a>
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2'><FaCode size={20}/> Portifólio Dev</a>
