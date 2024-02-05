@@ -10,11 +10,13 @@ export default function Home() {
           <img className='w-[200px] rounded-[50%]' src="https://avatars.githubusercontent.com/u/107481318?v=4" alt="Imagem Diego" />
           <h1 className='rounded-2xl bg-muted px-4 py-1.5 text-sm font medium flex items-center gap-1'>Oi, sou<span className='text-primary flex items-center justify-center'>Hudson Diego<ModeToggle /></span></h1>
           <p>Desenvolvedor FrontEnd e UI/UX Design. 
-          Acesse um desses links e aproveite a experiência!</p>          
+          Acesse um desses links e aproveite a experiência!</p>
         </div>
+        
       </header>
       <main id="links" className='flex flex-col gap-5 text-center w-[20rem] m-auto md:w-[30rem] m-auto'>
         <section className='flex flex-col gap-4'>
+          <details>Qualquer coisa</details>        
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2'><FaGithub size={20}/>Github</a>
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2'><FaLinkedin size={20}/> LinkedIn</a>
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2'><FaCode size={20}/> Portifólio Dev</a>
