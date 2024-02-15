@@ -4,8 +4,8 @@ import { LuLayoutDashboard, LuLayout } from 'react-icons/lu'
 
 export default function Home() {
   return (
-    <div className='p-3 m-auto flex flex-col text-center gap-5'>
-      <header id="intro" className='space-y-2 py-auto md:py-12 lg:pt-32 w-[30rem] m-auto'>        
+    <div className='p-3 m-auto flex flex-col text-center gap-3'>
+      <header id="intro" className='space-y-2 py-auto md:py-auto lg:pt-2 w-[30rem] m-auto'>        
         <div className='container flex max-w-[64rem] flex-col items-center gap-5'>
           <img className='w-[200px] rounded-[50%]' src="https://avatars.githubusercontent.com/u/107481318?v=4" alt="Imagem Diego" />
           <h1 className='rounded-2xl bg-muted px-4 py-1.5 text-sm font medium flex items-center gap-1 shadow'>Oi, sou<span className='text-primary flex items-center justify-center'>Hudson Diego<ModeToggle /></span></h1>
@@ -24,7 +24,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer id="create" className='space-y-6 md:py-12 lg:pb-32 '><p className='text-xs'>Criado por <span className='text-primary'>Hudson Sena</span>, com NextJs 14 e TailwindCss</p></footer>
+      <footer id="create" className='space-y-2 md:py-2 lg:pb-auto '><p className='text-xs'>Criado por <span className='text-primary'>Hudson Sena</span>, com NextJs 14 e TailwindCss</p></footer>
     </div>
   )
 }
