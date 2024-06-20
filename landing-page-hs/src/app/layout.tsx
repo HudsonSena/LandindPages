@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(
-        'min-h-screen bg-background font-sans antialised',
+        'bg-background font-sans antialised m-0 p-0',
         fontSans.variable,
         fontHeading.variable,
       )}>
