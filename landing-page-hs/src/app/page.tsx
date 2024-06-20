@@ -20,9 +20,9 @@ export default function Home() {
         <section className='flex flex-col gap-3'>
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><FaGithub size={20} />Github</a>
           <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><FaLinkedin size={20} /> LinkedIn</a>
-          <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><FaCode size={20} /> Portifólio Dev</a>
-          <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><LuLayoutDashboard size={20} /> Portifólio UI/UX</a>
-          <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><LuLayout size={20} /> Professional WebSite</a>
+          <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><FaCode size={20} />Projetos Dev</a>
+          <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><LuLayoutDashboard size={20} /> Proejtos UI/UX</a>
+          <a className='rounded-2xl bg-muted py-2 text-sm font medium flex justify-center items-center gap-2 shadow active:scale-110'><LuLayout size={20} /> Site Profissional</a>
         </section>
       </main>
 
