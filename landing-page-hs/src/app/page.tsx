@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div
       id="intro"
-      className="h-screen flex flex-col justify-center items-center gap-5 p-2"
+      className="flex flex-col justify-center items-center gap-5 px-2 py-20"
     >
       <div className="border-2 rounded-full border-primary">
         <img
